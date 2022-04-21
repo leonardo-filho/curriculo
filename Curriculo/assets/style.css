@@ -1,0 +1,82 @@
+body {
+  color: #343434;/*Jet*/
+}
+img {
+  width: 300px;
+}
+
+header {
+  background: #2f3061;/*Space-cadet*/
+  color: #f7fff7;/**/
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  text-size-adjust: 10px;
+}
+
+
+
+footer {
+  background: #343434;/*Jet*/
+  color: #f7fff7;/*Mint cream*/
+}
+
+a{
+	color: #ffe66d;/*Yellow crayola*/
+}
+a:hover{
+	text-decoration: none;
+}
+
+.btn{
+  display: inline-block;
+  color:#f7fff7;
+  text-decoration: none;
+  padding: 20px 50px;
+  border: 3px solid
+  #3c67e3;
+  border-radius:10px;
+  background-color: #3c67e3;
+  font-family: 'Courier New', Courier, monospace;
+}
+.btn:hover{
+	animation: pulsate 1s ease-in-out;
+}
+
+@keyframes pulsate {
+  0%{
+    box-shadow:
+    0 0 25px #5ddcff,
+    0 0 50px #4e00c2;
+  }
+}
+
+a#general{
+	color: #2f3061;
+}
+
+#fotopf{
+  border-radius: 50%;
+  margin-left: 45%;
+  width: 200px
+}
+
+.apres{
+  margin-left:30%
+  padding 20px;
+  padding-left: 37%;
+}
+
+.dados{
+  margin-left: 0%; 
+  font-size: 12px;
+  text-align: center;
+}
+
+#princ{
+  margin-left: 50px;
+}
+
+main{
+  border: 5px solid;
+  font-family: "Helvetica Neue",Helvetica,Arial
+}
